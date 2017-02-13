@@ -1,0 +1,22 @@
+{
+    "name": "shittyadvice/microblog",
+    "description": "A simple blog for the Microizer CMS",
+    "require": {
+        "mccool/laravel-auto-presenter": "^4.3",
+        "illuminate/support": "5.*",
+        "illuminate/database": "5.*",
+		"illuminate/view": "5.*",
+		"illuminate/http": "5.*"
+    },
+    "authors": [
+        {
+            "name": "Jetse Siersma",
+            "email": "jetse@codecrisp.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"ShittyAdvice\\MicroBlog\\": "src/"
+		}
+	}
+}

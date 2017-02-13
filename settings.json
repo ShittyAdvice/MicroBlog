@@ -1,0 +1,12 @@
+{
+	"microizer": {
+		"version": "1.0.0"
+	},
+	"menu": [
+		{
+			"title": "Blog",
+			"routeName": "backend.blog.index",
+			"icon": "fa fa-fw fa-users"
+		}
+	]
+}
