@@ -2,13 +2,13 @@
 
 ## Installation
 
-##### Step One
+#### Step One
 Install using composer
 ```bash
 composer require shittyadvice/microblog
 ```
 
-##### Step Two
+#### Step Two
 Register the ServiceProvider
 ```php
 'providers' => [
@@ -17,14 +17,14 @@ Register the ServiceProvider
 ];
 ```
 
-##### Step Three
+#### Step Three
 Migrate the database
 ```bash
-composer require shittyadvice/microblog
+php artisan db:migrate
 ```
 
-##### Step Four
-Load the plugin settings
+#### Step Four
+Reload Microizer plugins. This will generate all the required links etc.
 ```bash
-composer require shittyadvice/microblog
+php artisan plugin:reload
 ```
